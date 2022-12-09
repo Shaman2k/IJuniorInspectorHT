@@ -33,7 +33,7 @@ public class AudioClipListEditor : Editor
     public override void OnInspectorGUI()
     {
 
-        DrawDefaultInspector();
+      
         _audioClipList.Clips = RefreshClips(_audioClipList.Clips);
 
         for (int clipNumber = 0; clipNumber < _audioClipList.Clips.Count; clipNumber++)
@@ -119,7 +119,7 @@ public class AudioClipListEditor : Editor
 
     private void DrawPlayButton(Clip clip)
     {
-        if (GUILayout.Button(_playButtonTexture, GUILayout.Width(20), GUILayout.Height(20)))
+        if (GUILayout.Button(_playButtonTexture, GUILayout.Width(25), GUILayout.Height(25)))
         {
             if (_audioSource.isPlaying)
             {
