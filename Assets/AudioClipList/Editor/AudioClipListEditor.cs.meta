@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 84051b315c81af243ab3276775a2d762
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _audioSource: {instanceID: 0}
+  - _playButtonTexture: {fileID: 2800000, guid: 672169d24f2be0c4c8986c5b228398b5, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
